@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.631487">
+<testcase classname="Un-publish HELOAN 192,204,216,228 month terms (UAT)" name="Cucumber: Test URL" time="11.631487">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open Homepage and I search for pillows...............................passed
+Then the page title is as expected..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#As a client viewing the Loan Rates Marketing Page, I do not want to see the terms for 192 months, 204 months, 216 months and 228 months."
+          },
+          {
+            "line": 5,
+            "value": "#Tests As a client viewing the Loan Rates Marketing Page, I do not want to see the terms for 192 months, 204 months, 216 months and 228 months."
+          }
+        ],
+        "line": 8,
+        "name": "Cucumber: Test URL",
+        "description": "",
+        "id": "un-publish-heloan-192,204,216,228-month-terms-(uat);cucumber:-test-url",
+        "after": [
+          {
+            "result": {
+              "duration": 105348163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs_URLpage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1939232784,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "StepDefs_URLpage.i_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9409410598,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open Homepage and I search for pillows",
+            "match": {
+              "location": "StepDefs_URLpage.i_open_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5409279,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the page title is as expected",
+            "match": {
+              "location": "StepDefs_URLpage.the_page_title_is_as_expected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@TEST_CD-4"
+          }
+        ]
+      }
+    ],
+    "name": "Un-publish HELOAN 192,204,216,228 month terms (UAT)",
+    "description": "",
+    "id": "un-publish-heloan-192,204,216,228-month-terms-(uat)",
+    "keyword": "Feature",
+    "uri": "URLpage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@REQ_CD-1"
+      }
+    ]
+  }
+]

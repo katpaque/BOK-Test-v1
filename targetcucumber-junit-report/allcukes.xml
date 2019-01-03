@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.026526">
+<testcase classname="URL" name="Searching for pillows" time="15.026526">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open Homepage and I search for pillows...............................passed
+Then the page title is as expected..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
